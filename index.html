@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mediaquery.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+
+  </head>
+  <body>
+
+    <div class="rocket">
+      <img src="./imgs/rocket.png" alt="">
+    </div>
+
+    <section id="HOME" class="header-section">
+      <div class="header-container">
+        <!-- <div class="lines">
+          
+        </div> -->
+        <div class="row">
+          <div class="logo">
+            <h2>LOGO</h2>
+          </div >
+          <nav  class="not-mobile-nav">
+            <ul>
+              <a href="#HOME"> <li>HOME</li></a>
+              <a href="#SERVICES"> <li>SERVICES</li></a>
+              <a href="#SOLUTIONS"> <li>SOLUTIONS</li></a>
+              <a href="#TESTIMONIAL"> <li>TESTIMONIAL</li></a>
+              <a href="#CONTACT"> <li>CONTACT</li></a>
+            </ul>
+          </nav>
+          <div  class="mobile-nav">
+            <nav >
+              <ul>
+                <a onclick="scrollBody();" href="#HOME"> <li>HOME</li></a>
+                <a onclick="scrollBody();" href="#SERVICES"> <li>SERVICES</li></a>
+                <a onclick="scrollBody();" href="#SOLUTIONS"> <li>SOLUTIONS</li></a>
+                <a onclick="scrollBody();" href="#TESTIMONIAL"> <li>TESTIMONIAL</li></a>
+                <a onclick="scrollBody();" href="#CONTACT"> <li>CONTACT</li></a>
+              </ul>
+            </nav>
+          </div>
+          <div class="mobile-btn">
+            <span></span>
+            <span class="rotate-span"></span>
+          </div>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="row-main">
+         
+          <div class="col">
+            <div class="text-details">
+              <div class="shadow">
+                <img style="opacity: 0.3;" width="40%" src="imgs/rectangle-shadow.png" alt="" />
+              </div>
+              <h2>
+                EXPERT IN DEVELOPMENT, <br />
+                DESIGN AND VIDEO EDITING
+              </h2>
+              <br />
+              <p>
+                Hey there , it’s Gagik from Armenia , I’m ready <br />
+                to bring your Ideas into Life ...
+
+                <br /><br />
+                Do not hesitate just move ....
+              </p>
+              <br />
+              <br /><br />
+              <div class="button-details">
+                <button>How I Work</button>
+                <button>Contact Me</button>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col">
+            <div class="main-img"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="SERVICES" class="services-section">
+      <div style="text-align: center; transition: 2s;" data-aos="fade-in" class="middle-text">
+        <h2>WHAT <span> I DO ?</span></h2>
+      </div>
+      <div class="row-services">
+        <div class="col">
+          <div class="icons">
+            <div class="background-icons"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row-services-section row-services-section2">
+        <div class="col">
+          <div data-aos="fade-right" class="card">
+            <div class="card-items">
+              <h2>
+                SOFTWARE
+                <span
+                  ><br />
+                  DEVELOPMENT
+                </span>
+              </h2>
+              <br />
+              <img style="width: 22%;" src="/imgs/whatido/code-icon.png" alt="" />
+              <p>
+                From mobile ,web <span>apps</span> to desktop applications, I
+                have the <span>skills</span> to bring your ideas to life and
+                make them accessible to your target audience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" class="card">
+              <div class="card-items">
+                <h2>
+                    Graphic (UI/UX)    
+                  <span
+                    ><br />
+                    Design
+                  </span>
+                </h2>
+                <br />
+                <img style="width: 20%;" src="/imgs/whatido/design.png" alt="" />
+                <p>
+                    User Interface (UI) <span>design</span>  is my forte. 
+                     I  craft intuitive and user-friendly interfaces that 
+                     <span>enhance</span> the user experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div data-aos="fade-topc" class="card last-card">
+              <div class="card-items">
+                <h2>
+                  VIDEO / AUDIO
+                  <span
+                    ><br />
+                    EDITING
+                  </span>
+                </h2>
+                <br />
+                <img style="width: 20%;" src="/imgs/whatido/video.png" alt="" />
+                <p>
+                    Whether it's for personal projects, <span>business</span> 
+                     promotions, or events, I can enhance
+                     and edit your videos to create engaging 
+                     and <span> professional</span> content.
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+   
+
+
+ <section id="SOLUTIONS" class="solutions">
+  <div class="solutions-container">
+    <div style="text-align: center; transition: 2s;" data-aos="fade-in" class="middle-text">
+      <h2>SOLU<span>TIONS</span></h2>
+    </div>
+    <div class="row-solutions">
+      <div class="col">
+          <img data-aos="fade-right" src="./imgs/skills-icons/SKILLS.png" alt=""> 
+      </div>
+    </div>
+  </div>
+ </section>
+
+ 
+<section id="TESTIMONIAL"  class="testimonial">
+  <div class="testimonial-container">
+    <div style="text-align: center; transition: 1s;" class="middle-text">
+      <h2>HAPPY<span>  CLIENTS</span></h2>
+    </div>
+    <div class="row-testimonial">
+      <div class="col">
+        <div class="hexagon-container">
+          <div class="hexagon">
+            <div class="cross"></div>
+
+                <div class="hexagon-text">
+                    <h3>Mer Hossain</h3>
+                    <img src="./imgs/stars.png" alt="">
+                </div>
+                <div class="hexagon-text2">
+                  <p>Excellent freelancer. He completed the work really fast and successfully completed the job. I highly recommend him to everyone!</p>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="hexagon-container2">
+          <div class="hexagon">
+            <div class="hexagon-text">
+              <h3>Wil Roberts</h3>
+              <img src="./imgs/stars.png" alt="">
+          </div>
+          <div class="hexagon-text2">
+            <p>Gagik followed our guidelines to the letter and made sure the final product was exactly what we needed. </p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="hexagon-container3">
+          <div class="hexagon">
+            <div class="hexagon-text">
+              <h3>Bastian Gerj</h3>
+              <img src="./imgs/stars.png" alt="">
+          </div>
+          <div class="hexagon-text2">
+            <p>Delivered the project on time and did a great job. Also really pleasant and easy to work with him !</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+
+<section id="CONTACT" class="contact">
+  <div class="contact-container">
+    <div style="text-align: center; transition: 1s;" class="middle-text">
+      <h2>CONT<span>ACT</span></h2><br>
+      <div class="row-contact">
+        <div class="col">
+          <div class="outer-block">
+            <div class="inner-block">
+                <div class="inner-block-details inner-block-details1">
+                  <h2>Contact Me</h2>
+                  <input style="display: block;" type="text" placeholder="Your Email">
+  
+                  <textarea placeholder="Your Message" name="" id="" cols="30" rows="10"></textarea>
+                  <button class="submit">Submit</button>
+                </div>
+            </div>
+            <div class="inner-block">
+              <div class="inner-block-details inner-block-details2">
+                <h2>Hello, Friend</h2>
+                <p>This is just a portfolio, send button is not working contact me through <span>Upwork</span>.</p>
+              </div>
+          </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+<section class="footer">
+  <div class="footer-cont">
+
+      <div class="row-footer">
+
+      
+        <div class="col">
+            <h2>Your Logo</h2><br><br>
+            <button class="contact-footer-btn">Contact Me</button>
+        </div>
+        <div class="col">
+          <div class="vertical-line">
+
+          </div>
+           <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Solutions</li>
+            <li>Testimonial</li>
+            <li>Contact</li>
+
+           </ul>
+        </div>
+        <div class="col">
+          <div class="vertical-line2">
+
+          </div>
+          <div class="footer-icons">
+           
+            <img src="/imgs/footer/f.png" alt="">
+            <img src="/imgs/footer/i.png" alt="">
+            <img src="/imgs/footer/l.png" alt="">
+            <img src="/imgs/footer/u.png" alt="">
+
+          </div>
+      
+        </div>
+      </div>
+      </div>
+</section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+
+   
+
+    <script>
+      AOS.init();
+      </script>
+       <script src="scripts/canvas-animation.js"></script>
+  </body>
+</html>

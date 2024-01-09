@@ -49,7 +49,7 @@ function myFunction(x) {
 
   }
 }
-
+const mainImg = document.querySelector('.main-img');
 mobileBtn.addEventListener('click',(e) =>{
   const x = window.matchMedia("(min-width: 781px)")
   myFunction(x);
@@ -62,12 +62,13 @@ mobileBtn.addEventListener('click',(e) =>{
   cliecked = !cliecked;
   document.body.style.overflowY = "hidden";
   mobileNav.style.display = "flex";
-
-  }else{
-    rotateSpan.style.transform = "rotate(0)";
+  mainImg.style.display = "none";
+}else{
+  rotateSpan.style.transform = "rotate(0)";
     cliecked = !cliecked;
     document.body.style.overflowY = "scroll";
     mobileNav.style.display = "none";
+    mainImg.style.display = "block";
 
   }
 })
@@ -116,7 +117,7 @@ class Hexagon{
 
       }
 
-      const top = 3300 - lastScrollTop;
+      const top = 3100 - lastScrollTop;
       if(currentScrollTop > lastScrollTop) {
 
         this.hexagons[0].style.left = 100 + top  + "px";

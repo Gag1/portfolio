@@ -24,7 +24,7 @@
 
 }
   .header-container{
-     padding: 0 40px 0 40px;
+     padding: 10px 40px 0 40px;
   }
   .solutions{
     margin-top: 200px;
@@ -64,6 +64,9 @@
  }
   .outer-block{
     width: 680px;
+  }
+  .header-section{
+    height: 780px;
   }
 }
 
@@ -125,7 +128,9 @@
     .outer-block{
         width: 350px;
     }
-  
+    .header-section{
+      height: 880px;
+    }
 }
 @media screen and (max-width:600px) {
    .footer-cont .col:nth-child(2){

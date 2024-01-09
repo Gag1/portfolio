@@ -7,10 +7,9 @@ const solutions = document.querySelector('.solutions');
 
 let rotate = true;
 window.addEventListener('scroll',(e) =>{
-  const sectionPos = servicesSection.getClientRects()[0];
   const rocketPos = rocket.getClientRects()[0];
   const solutionPos = solutions.getClientRects()[0];
-
+  if(!rocketPos || !solutionPos) return;
   if( rocketPos.y < solutionPos.y){
     rocket.style.left = '400px'
 

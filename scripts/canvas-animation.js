@@ -26,15 +26,6 @@ window.addEventListener('scroll',(e) =>{
 
 
 
-
-
-
-
-
-
-
-
-
 const mobileBtn = document.querySelector('.mobile-btn');
 const rotateSpan = document.querySelector('.rotate-span');
 const mobileNav = document.querySelector('.mobile-nav');

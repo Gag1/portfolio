@@ -319,7 +319,8 @@ p span{
 }
 .testimonial-container .middle-text {
    width: 100%;
- 
+   display: none;
+
 }
 .testimonial-container .middle-text span {
    color: rgb(237, 137, 5);
